@@ -11,8 +11,22 @@
   --color-font: #fff;
   --color-background: #000;
 }
-br {
-  /* so that firefox looks like chrome */
-  line-height: 2rem;
-  height: 2rem;
+@-moz-document url-prefix() {
+  /* Firefox */
+  :root {
+    --font-family: 'Nanum Gothic', sans-serif;
+    --font-family-bold: 'Nanum Gothic Bold', sans-serif;
+    --font-family-extrabold: 'Nanum Gothic ExtraBold', sans-serif;
+
+    --font-size: 1.5rem;
+    --font-size-title: 2rem;
+    --font-size-desktop: 2rem;
+    --font-size-desktop-title: 3rem;
+
+    --color-font: #fff;
+    --color-background: #000;
+  }
+  span {
+    margin: 2rem;
+  }
 }
