@@ -11,3 +11,8 @@
   --color-font: #fff;
   --color-background: #000;
 }
+br {
+  /* so that firefox looks like chrome */
+  line-height: 2rem;
+  height: 2rem;
+}
