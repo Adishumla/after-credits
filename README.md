@@ -1,38 +1,10 @@
-INSERT MANDATORY GIF
+<img src="gif/credits.gif" width="100%">
 
-# Project Title
+# After credits
 
-[![Build Status](https://travis-ci.org/username/project.svg?branch=master)](https://travis-ci.org/username/project)
+https://after-credits.netlify.app/
 
-[![Coverage Status](https://coveralls.io/repos/github/username/project/badge.svg?branch=master)](https://coveralls.io/github/username/project?branch=master)
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/uuid/maintainability)](https://codeclimate.com/github/username/project/maintainability)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/uuid/test_coverage)](https://codeclimate.com/github/username/project/test_coverage)
-
-[![Known Vulnerabilities](https://snyk.io/test/github/username/project/badge.svg)](https://snyk.io/test/github/username/project)
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/username/project.svg)](https://greenkeeper.io/)
-
-[![dependencies Status](https://david-dm.org/username/project/status.svg)](https://david-dm.org/username/project)
-
-[![devDependencies Status](https://david-dm.org/username/project/dev-status.svg)](https://david-dm.org/username/project?type=dev)
-
-[![peerDependencies Status](https://david-dm.org/username/project/peer-status.svg)](https://david-dm.org/username/project?type=peer)
-
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/npm)
-
-[![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/npm)
-
-[![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/npm)
-
-[![npm](https://img.shields.io/npm/dm/localeval.svg)](https://www.npmjs.com/package/npm)
-
-[![npm](https://img.shields.io/npm/dw/localeval.svg)](https://www.npmjs.com/package/npm)
-
-[![npm](https://img.shields.io/npm/dy/localeval.svg)](https://www.npmjs.com/package/npm)
-
-[![npm](https://img.shields.io/npm/dm/localeval.svg)](https://www.npmjs.com/package/npm)
+this is a simple project to show the credits of a movie from the movie database api.
 
 # Installation
 
