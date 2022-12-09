@@ -1,10 +1,8 @@
-// Replace {movie_id} and {your_api_key} with the actual values
+//random movie id from 1 to 1000
 const movie_id = Math.floor(Math.random() * 1000) + 1;
 
 const url = `https://api.themoviedb.org/3/movie/${movie_id}/credits?api_key=362af9da1ef46b3f25052bb20767461f`;
 const movie_name_url = `https://api.themoviedb.org/3/movie/${movie_id}?api_key=362af9da1ef46b3f25052bb20767461f`;
-
-//random movie id from 1 to 1000
 
 //fetch the movie name from the API and display it on the page
 fetch(movie_name_url)
