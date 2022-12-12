@@ -23,5 +23,5 @@ this is a simple project to show the credits of a movie from the movie database 
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. Axel
+2. Douglas

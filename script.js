@@ -71,21 +71,21 @@ fetch(url)
     const animationDuration = parseFloat(
       window.getComputedStyle(afterCredits).animationDuration
     );
-    console.log(animationDuration);
+    /* console.log(animationDuration); */ //shows animation duration
 
     // reload the page after the animation is done
     setTimeout(() => {
       location.reload();
     }, animationDuration * 750);
-    console.log(animationDuration * 800 + 'ms');
-    console.log((animationDuration * 800) / 1000 + 's');
+    /* console.log(animationDuration * 800 + 'ms');
+    console.log((animationDuration * 800) / 1000 + 's'); */ // logs for animation duration for s and ms
     //countdown timer to reload the page console.log
     let timeLeft = (animationDuration * 800) / 1000;
     const timer = setInterval(() => {
       if (timeLeft <= 0) {
         clearInterval(timer);
       }
-      console.log(timeLeft);
+      /* console.log(timeLeft); */ //timer till page reload
       timeLeft -= 1;
     }, 1000);
   });
